@@ -99,6 +99,16 @@ Since the frame and the gears made up most of the material required for the cloc
 ##### Aligned vector files. Everything seems to fit!
 
 ## The Clock Gears
+
+> Note: I made a miscalculation here. A kind reader notified me the following: *As you mentions on the webpages, 
+you used two gears of ratio 1:3.5 which gives `10/35*10/35 = 1:12.25`
+final ratio instead of 1:12. As result your clock loss an hour each 
+2 days. The solution should be to use correct clock gears configuration 
+to fit the ration 1:12. To find the gear configuration is not easy but 
+you can trust me the `25/75*20/80` fits well. There is also possible to 
+use smaller gears, `5/15*4/16` or `15/45*12/48` or `10/30*8/32`.* Here's an updated 
+[GearGenerator](https://geargenerator.com/#200,200,100,60,0,3,0,4,1,10,1,10,27,0,0,0,0,0,0,0,30,3,10,27,0,0,0,0,0,1,1,8,0.8,10,27,-60,0,0,0,0,2,0,32,3.2,10,27,180,0,0,0,0,0,0,3,-171).
+
 I now had most things required for making the final clock. Pendulum, escape mechanism, gear train, main frame and clock face were all finished and ready for a final print. However, to tell the time correctly, an hour hand is also needed. Doing the same calculations as for the gear train, a gear ratio of 1:3,5 , using two gears to get the final gear doing one rotation each 12 hours (1/720 RPM) was determined. Again, the gears were modelled using Fusion. These gears would not be attached to the gear train, but directly behind the clock face to have two different rotations on the same axis (using some fittings).
 
  The gears were made quite quickly since it was the same approach as in the gear train. When finished, I could laser cut the majority of the clock files.
