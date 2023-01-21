@@ -1,28 +1,38 @@
 baseurl = "https://eliaslundgaard.com/"
 languageCode = "en-US"
-title = "Elias Lundgaard: Projects, Code and Tech."
+title = "Projects, Code and Tech."
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-135988272-1"
-theme = "hugo-sustain"
+theme = "hugo-coder"
 
 [permalinks]
   post = "/:year/:month/:day/:slug"
 
 [params]
-  avatar = "profile.png"
   author = "Elias Lundgaard"
+  info = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Currently working on making video intelligent with CV & AI with [Jabra](https://www.jabra.com)."
   description = "I'm Elias, a guy from Denmark doing start-ups, coding and a bunch of fun projects in Engineering."
 
   # Custom assets can be linked with their paths relative to static/
-  custom_css = []
+  custom_css = ["css/styles.css"]
   custom_js  = []
+  colorScheme = "dark"
 
-[params.social]
-  Github        = "gmcheese"
-  Email         = "elias@eliaslundgaard.com"
-  LinkedIn      = "eliaslundgaard"
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/gmcheese/"
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  url = "mailto:web@eliaslundgaard.com"
+[[params.social]]
+  name = "LinkedIn"
+  icon = "fa fa-linkedin fa-2x"
+  url = "https://dk.linkedin.com/in/eliaslundgaard"
 
 ## Main Menu
 [[menu.main]]
