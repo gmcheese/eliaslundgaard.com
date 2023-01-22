@@ -12,7 +12,8 @@ theme = "hugo-coder"
 
 [params]
   author = "Elias Lundgaard"
-  info = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Currently working on making video intelligent with CV & AI with [Jabra](https://www.jabra.com)."
+  avatarURL	= "avatar.png"
+  info = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Currently working on making video intelligent with CV & AI at [Jabra](https://www.jabra.com)."
   description = "I'm Elias, a guy from Denmark doing start-ups, coding and a bunch of fun projects in Engineering."
 
   # Custom assets can be linked with their paths relative to static/
