@@ -2,7 +2,7 @@
 categories: ["projects"]
 date: 2023-01-25T12:55:05-04:00
 tags: ["projects"]
-title: "How to Superchage Siri with GPT-3"
+title: "How to Supercharge Siri with GPT-3"
 show-meta: false
 featured_image: /gpt3-siri/siri-gpt.png
 toc: false
