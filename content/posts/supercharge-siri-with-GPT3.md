@@ -10,7 +10,7 @@ toc: false
 
 ![Create API key](/gpt3-siri/siri-gpt.png)
 
-How many times have you used Siri and thought: "That just doesn't cut it"? Even though Siri is useful for mundane tasks such as settings timers or turning of smart home devices, functionality often falls short at simple questions.
+How many times have you used Siri and thought: "That just doesn't cut it"? Even though Siri is useful for mundane tasks such as setting timers or turning off smart home devices, functionality often falls short at simple questions.
 
 You've probably already heard too much about [OpenAI's](https://openai.com) [ChatGPT](http://chat.openai.com), which blows Siri's more "soft" qualities - such as answering questions, out of the water. So why not use both?
 
@@ -27,9 +27,9 @@ Apple's [Shortcuts](https://support.apple.com/en-gb/guide/shortcuts/welcome/ios)
 
 ## Getting the API key
 
-First, let's get you API key from OpenAI. This is the secret key that will allow you to connect to OpenAI's GPT-3, and send and receive requests. The key is linked to your account and will use your credits, so keep it secret!
+First, let's get you an API key from OpenAI. This is the secret key that will allow you to connect to OpenAI's GPT-3, and send and receive requests. The key is linked to your account and will use your credits, so keep it secret!
 
-Got to you OpenAI dashboard by logging in on the [login page](https://openai.com/login). In the top right corner, click your profile avatar and select "**View API keys**".
+Go to your OpenAI dashboard by logging in on the [login page](https://openai.com/login). In the top right corner, click your profile avatar and select "**View API keys**".
 
 ![Create API key](/gpt3-siri/api-key-menu.png)
 
@@ -48,7 +48,7 @@ Head to the shortcuts app and click the **+** icon to create a new shortcut.
 
 ### Naming the shortcut
 
-If you want to access the shortcut through Siri, you need to give it a proper name. Activating shortcuts through Siri works by activating siri, and then saying the shortcut name. For a shortcut named "My Shortcut", you would activate it by "Hey Siri... My Shortcut". That sounds a bit weird, so instead I named my GPT-3 bot "Coda" (It chose this name itself), and named the shortcut **Ask Coda**. This means you will activate the shortcut with "Hey Siri... Ask Coda". Much nicer!
+If you want to access the shortcut through Siri, you need to give it a proper name. Activating shortcuts through Siri works by activating Siri, and then saying the shortcut name. For a shortcut named "My Shortcut", you would activate it by "Hey Siri... My Shortcut". That sounds a bit weird, so instead I named my GPT-3 bot "Coda" (It chose this name itself), and named the shortcut **Ask Coda**. This means you will activate the shortcut with "Hey Siri... Ask Coda". Much nicer!
 
 ### Ask for Voice Input
 
