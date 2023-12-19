@@ -1,43 +1,45 @@
 baseurl = "https://eliaslundgaard.com/"
 languageCode = "en-US"
-title = "Projects, Code and Tech."
-# Enable comments by entering your Disqus shortname
-disqusShortname = ""
+title = "Elias Lundgaard"
+
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-135988272-1"
-theme = "hugo-coder"
+theme = "PaperMod"
 
 [permalinks]
-  post = "/:year/:month/:day/:slug"
+post = "/:year/:month/:day/:slug"
 
 [params]
-  author = "Elias Lundgaard"
-  avatarURL	= "avatar.png"
-  info = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Currently working on making video intelligent with CV & AI at [Jabra](https://www.jabra.com)."
-  description = "I'm Elias, a guy from Denmark doing start-ups, coding and a bunch of fun projects in Engineering."
+# Custom assets can be linked with their paths relative to static/
+env = "production"
+custom_css = ["css/styles.css"]
+custom_js = []
+colorScheme = "dark"
 
-  # Custom assets can be linked with their paths relative to static/
-  custom_css = ["css/styles.css"]
-  custom_js  = []
-  colorScheme = "dark"
+[params.profileMode]
+enabled = true
 
-[[params.social]]
-  name = "Github"
-  icon = "fa fa-github fa-2x"
-  weight = 1
-  url = "https://github.com/gmcheese/"
-[[params.social]]
-  name = "Email"
-  icon = "fa fa-envelope fa-2x"
-  url = "mailto:web@eliaslundgaard.com"
-[[params.social]]
-  name = "LinkedIn"
-  icon = "fa fa-linkedin fa-2x"
-  url = "https://dk.linkedin.com/in/eliaslundgaard"
+title = "Elias Lundgaard" # optional default will be site title
+subtitle = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Currently working on making video intelligent with CV & AI at [Jabra](https://www.jabra.com)."
+imageUrl = "avatar.png" # optional
+imageTitle = "Avatar" # optional
+
+
+[[params.socialIcons]] # optional
+name = "github"
+url = "https://github.com/gmcheese/"
+
+[[params.socialIcons]] # optional
+name = "linkedin"
+url = "https://linkedin.com/in/eliaslundgaard"
+
+[[params.socialIcons]] # optional
+name = "email"
+url = "mailto:web@eliaslundgaard.com"
 
 ## Main Menu
 [[menu.main]]
-  name = "posts"
-  weight = 100
-  identifier = "posts"
-  url = "/posts/"
+name = "posts"
+weight = 100
+identifier = "posts"
+url = "/posts/"
