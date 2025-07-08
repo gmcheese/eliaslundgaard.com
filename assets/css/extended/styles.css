@@ -7,3 +7,28 @@
     min-height: calc(80vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
     text-align: center;
 }
+
+.dark {
+    --theme: #000;
+    --primary: rgb(255, 255, 255);
+    --content: rgb(255, 255, 255);
+}
+
+a {
+    transition: color 0.3s ease;
+    /* Smooth color transition */
+}
+
+a:hover {
+    color: rgba(0, 0, 0, 0.6);
+    /* Hover color */
+}
+
+.dark a:hover {
+    color: rgba(255, 255, 255, 0.8);
+    /* Hover color */
+}
+
+body {
+    font-family: 'IBM Plex Sans', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}

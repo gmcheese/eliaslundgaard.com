@@ -12,7 +12,7 @@ post = "/:year/:month/:day/:slug"
 [params]
 # Custom assets can be linked with their paths relative to static/
 env = "production"
-custom_css = ["css/styles.css"]
+custom_css = ["css/styles.css", "css/header-overrides.css"]
 custom_js = []
 colorScheme = "dark"
 
@@ -20,10 +20,12 @@ colorScheme = "dark"
 enabled = true
 
 title = "Elias Lundgaard" # optional default will be site title
-subtitle = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Worked there, at [Jabra](https://www.jabra.com) until 2024. Now building something new."
+subtitle = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Worked there, at [Jabra](https://www.jabra.com) until 2024. Now building [Wisp Compute](https://wispcompute.com)."
 imageUrl = "avatar.png" # optional
 imageTitle = "Avatar" # optional
 
+[params.label]
+text = "Home"
 
 [[params.socialIcons]] # optional
 name = "github"
