@@ -16,16 +16,16 @@ custom_css = ["css/styles.css", "css/header-overrides.css"]
 custom_js = []
 colorScheme = "dark"
 
+math = true
+
 [params.profileMode]
 enabled = true
 
 title = "Elias Lundgaard" # optional default will be site title
-subtitle = "From Copenhagen, Denmark. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN Audio](https://www.gn.com), part of the GN Group in 2021. Worked there, at [Jabra](https://www.jabra.com) until 2024. Now building [Wisp Compute](https://wispcompute.com)."
-imageUrl = "avatar.png" # optional
+subtitle = "From Denmark, currently based in Reykjavik, Iceland. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN](https://www.gn.com) in 2021. Served as tech lead at [Jabra](https://www.jabra.com) until 2024. Now building [Wisp Compute](https://wispcompute.com)."
+imageUrl = "avatar.jpg" # optional
 imageTitle = "Avatar" # optional
 
-[params.label]
-text = "Home"
 
 [[params.socialIcons]] # optional
 name = "github"
@@ -45,3 +45,13 @@ name = "posts"
 weight = 100
 identifier = "posts"
 url = "/posts/"
+
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]

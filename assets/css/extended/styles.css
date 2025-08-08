@@ -8,14 +8,8 @@
     text-align: center;
 }
 
-.dark {
-    --theme: #000;
-    --primary: rgb(255, 255, 255);
-    --content: rgb(255, 255, 255);
-}
-
 a {
-    transition: color 0.3s ease;
+    transition: color 0.2s ease;
     /* Smooth color transition */
 }
 
@@ -31,4 +25,20 @@ a:hover {
 
 body {
     font-family: 'IBM Plex Sans', BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.logo a {
+    font-size: 18px;
+}
+
+.post-entry {
+    border: 2px solid var(--border);
+    transition: background-color 0.2s ease;
+}
+.post-entry:hover {
+    background-color: var(--entry-hover)
+}
+
+.profile .profile_inner {
+    gap: 18px;
 }
