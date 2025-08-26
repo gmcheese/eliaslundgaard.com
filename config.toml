@@ -3,7 +3,7 @@ languageCode = "en-US"
 title = "Elias Lundgaard"
 
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "UA-135988272-1"
+googleAnalytics = "G-WVSG0V1YJ0"
 theme = "PaperMod"
 
 [permalinks]
