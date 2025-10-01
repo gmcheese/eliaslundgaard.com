@@ -42,3 +42,38 @@ body {
 .profile .profile_inner {
     gap: 18px;
 }
+
+/** Google Custom Search Engine Styling **/
+
+.gsc-control-cse {
+    background-color: var(--theme) !important;
+    border: none !important
+}
+
+.gsc-input {
+    margin-bottom: 0px !important;
+}
+
+.gsc-input-box {
+    background-color: var(--entry-hover) !important;
+    margin-bottom: 0px !important;
+}
+
+.gsc-input-box{
+    border: 2px solid !important;
+    border-color: var(--border) !important;
+    border-radius: var(--radius) !important;
+}
+
+.gsc-input-box, input, textarea {
+    color: var(--content) !important;
+}
+
+.gsc-input-box, focus, textarea {
+    color: var(--content) !important;
+    border-color: var(--border);
+}
+
+.gsc-completion-container{
+    background: var(--theme) !important;
+}

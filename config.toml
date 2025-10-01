@@ -46,6 +46,11 @@ weight = 100
 identifier = "posts"
 url = "/posts/"
 
+[[menu.main]]
+name = "search"
+weight = 100
+identifier = "search"
+url = "/search/"
 
 [markup]
   [markup.goldmark]
