@@ -22,7 +22,7 @@ math = true
 enabled = true
 
 title = "Elias Lundgaard" # optional default will be site title
-subtitle = "From Denmark, currently based in Reykjavik, Iceland. Founded an eye tracking company in 2017, and worked as CTO there until it's acquisition by [GN](https://www.gn.com) in 2021. Served as tech lead at [Jabra](https://www.jabra.com) until 2024. Now building [Wisp Compute](https://wispcompute.com)."
+subtitle = "From Denmark, currently based in Reykjavik, Iceland. Have worked as technology leader in startups and enterprises. Founded two companies, exited one. Currently CTO @ [Sundra](https://sundra.io)"
 imageUrl = "avatar.jpg" # optional
 imageTitle = "Avatar" # optional
 
